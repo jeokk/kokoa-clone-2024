@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kokoa Talk</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <!-- 나중에 실시간으로 시간을 받아와보자. -->
+          <span>4:58</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fa-solid fa-hourglass-end"></i>
+          <i class="fa-solid fa-volume-high"></i>
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-solid fa-signal"></i>
+          <span>28%</span>
+          <i class="fa-solid fa-battery-quarter"></i>
+        </div>
+      </div>
+      <div class="main-container">
+        <div class="logo">
+          <img src="screenshots/kakao_talk.jpg" alt="로고이미지" />
+        </div>
+        <form action="chat.html" id="login-form" method="get">
+          <input
+            type="text"
+            name="user-account"
+            id="user-account"
+            placeholder="이메일 또는 전화번호"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="비밀번호"
+            required
+          />
+          <input type="submit" value="로그인" />
+        </form>
+        <div class="line-break">
+          <hr class="line-break__line" />
+          <span class="line-break__text">또는</span>
+          <hr class="line-break__line" />
+        </div>
+        <div class="qr-login">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR코드 로그인</span>
+        </div>
+        <div class="login-remember">
+          <input type="checkbox" name="remember" id="remember" />
+          <span class="checkmark"></span>
+          <span>자동로그인</span>
+          <i class="fa-solid fa-circle-info"></i>
+        </div>
+        <div class="account-setting">
+          <a href="#" class="account-setting__id">카카오 계정 찾기</a>
+          <span>&vert;</span>
+          <a href="#" class="account-setting__pw">비밀번호 재설정</a>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/302e51725b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

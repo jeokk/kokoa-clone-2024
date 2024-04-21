@@ -1,0 +1,14 @@
+.welcome__header {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.welcome__title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.welcome__text {
+  color: var(--kakao-font-gray);
+  padding: 0px 100px;
+}

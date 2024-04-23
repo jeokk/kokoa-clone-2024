@@ -19,24 +19,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
   background-color: tomato;
   color: white;
   font-weight: 600;
   position: absolute;
-  top: -20px;
-  right: -20px;
+  top: -10px;
+  right: -13px;
 }
 
 .nav__noti-update {
-  width: 7px;
-  height: 7px;
-  border-radius: 3.5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
   display: block;
   background-color: tomato;
   position: absolute;
-  top: -15px;
-  right: -15px;
+  top: -4px;
+  right: -10px;
 }

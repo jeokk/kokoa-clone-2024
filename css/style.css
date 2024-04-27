@@ -6,14 +6,26 @@
 @import "component/nav-bar.css";
 @import "component/screen-header.css";
 @import "component/user-component.css";
+@import "component/badge.css";
+@import "component/noti-update.css";
 
 /* Screens */
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/find.css";
 
 body {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #2e363e;
+}
+.main-screen {
+  padding: var(--horizontal-space);
+  padding-bottom: 60px;
+}
+
+.main-screen--reverse {
+  display: flex;
+  flex-direction: column-reverse;
 }

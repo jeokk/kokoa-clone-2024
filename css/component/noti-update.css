@@ -1,0 +1,10 @@
+.noti-update {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: block;
+  background-color: tomato;
+  position: absolute;
+  top: -4px;
+  right: -10px;
+}

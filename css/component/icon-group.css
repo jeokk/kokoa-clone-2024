@@ -1,0 +1,37 @@
+.icon-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: var(--kakao-border);
+}
+
+.icon-group:last-child {
+  border: none;
+}
+.icon-group__title {
+  font-weight: 500;
+  padding: 25px 0;
+}
+.icon-group__row {
+  display: flex;
+  justify-content: flex-start;
+  color: var(--kakao-font-gary);
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.icon-group__icon {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-group__icon i {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.icon-group span {
+  text-align: center;
+}

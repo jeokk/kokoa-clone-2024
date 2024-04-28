@@ -1,0 +1,14 @@
+.more-screen .user-component {
+  margin-bottom: 30px;
+}
+
+.user-component__subtitle i {
+  color: tomato;
+}
+
+.suggestions__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}

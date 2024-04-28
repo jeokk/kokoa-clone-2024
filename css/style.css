@@ -8,11 +8,13 @@
 @import "component/user-component.css";
 @import "component/badge.css";
 @import "component/noti-update.css";
+@import "component/icon-group.css";
 
 /* Screens */
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/find.css";
+@import "screen/more.css";
 
 body {
   font-family: "Noto Sans KR", sans-serif;

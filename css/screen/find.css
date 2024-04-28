@@ -10,25 +10,6 @@
   position: absolute;
   top: 2px;
 }
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  color: var(--kakao-font-gary);
-  padding-bottom: 30px;
-  border-bottom: var(--kakao-border);
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: inherit;
-}
-
-.find-icons__icon i {
-  font-size: 35px;
-  margin-bottom: 15px;
-}
 
 .recommanded-friends {
   margin-top: 20px;

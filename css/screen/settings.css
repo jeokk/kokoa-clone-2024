@@ -1,0 +1,39 @@
+.settings-list {
+  font-size: 24px;
+}
+.settings-setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings-setting i {
+  margin-right: 10px;
+}
+
+.about-kokoa:nth-child(3) {
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.settings-setting__column {
+  display: flex;
+  align-items: center;
+}
+.settings-setting__column:last-child {
+  color: var(--kakao-font-gray);
+}
+.update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 5px;
+}

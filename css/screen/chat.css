@@ -1,0 +1,83 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 1000vh;
+}
+#chat-screen .status-bar,
+#chat-screen .alt-screen-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: inherit;
+  z-index: 1;
+  top: 0;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+  padding-bottom: 10px;
+}
+#chat-screen .alt-screen-header {
+  margin-top: 20px;
+}
+
+.chat-screen {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat__date {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 7px 15px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+
+.message-enter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 5px 25px;
+  padding-left: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.message-enter__column:first-child {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+.message-enter__column:last-child {
+  width: 90%;
+}
+.message-enter__bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border: var(--kakao-border);
+  border-radius: 25px;
+  padding: 5px 10px;
+  padding-right: 3px;
+}
+.message-enter__bar input {
+  border: none;
+  width: 90%;
+}
+
+.message-enter__send-btn {
+  border: none;
+  background-color: var(--kakao-yellow);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-left: 20px;
+  text-align: center;
+}

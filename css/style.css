@@ -10,6 +10,7 @@
 @import "component/badge.css";
 @import "component/noti-update.css";
 @import "component/icon-group.css";
+@import "component/message-row.css";
 
 /* Screens */
 @import "screen/login.css";
@@ -17,12 +18,14 @@
 @import "screen/find.css";
 @import "screen/more.css";
 @import "screen/settings.css";
+@import "screen/chat.css";
 
 body {
   font-family: "Noto Sans KR", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #2e363e;
+  background-color: #ffffff;
 }
 .main-screen {
   padding: var(--horizontal-space);

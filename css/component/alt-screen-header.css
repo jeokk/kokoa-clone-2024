@@ -5,8 +5,29 @@
   margin-top: 30px;
   padding: var(--vertical-space) var(--horizontal-space);
 }
-
+.alt-screen-header__column {
+  width: 33%;
+}
+.alt-screen-header__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.alt-screen-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alt-screen-header__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 .alt-screen-header__title {
   font-size: 26px;
   font-weight: 600;
+}
+
+.alt-screen-header__column:last-child i:last-child {
+  margin-left: 20px;
 }

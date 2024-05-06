@@ -11,6 +11,7 @@
 @import "component/noti-update.css";
 @import "component/icon-group.css";
 @import "component/message-row.css";
+@import "component/no-mobile.css";
 
 /* Screens */
 @import "screen/login.css";

@@ -94,3 +94,32 @@
   bottom: 5px;
   right: 5px;
 }
+@keyframes heartBeat {
+  0% {
+    transform: none;
+  }
+  25% {
+    color: tomato;
+    transform: scale(1.3);
+  }
+  50% {
+    transform: none;
+    color: white;
+  }
+  75% {
+    color: tomato;
+    transform: scale(1.1);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-chat__like i {
+  margin-right: 3px;
+}
+
+.open-chat__like i:hover {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}

@@ -112,3 +112,17 @@
 .message-enter:focus-within .message-enter__bar input {
   width: 100%;
 }
+
+@keyframes appearChatScreen {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.chat-screen {
+  animation: appearChatScreen 1s ease-in-out forwards;
+}

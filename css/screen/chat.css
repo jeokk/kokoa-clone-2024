@@ -37,11 +37,10 @@
 
 .message-enter {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: white;
-  padding: 5px 25px;
-  padding-left: 0px;
+  padding: 5px 0px;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -53,23 +52,31 @@
   display: flex;
   justify-content: center;
   width: 10%;
+  transition: all 0.3s ease-in-out;
 }
 .message-enter__column:last-child {
   width: 90%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
 }
 .message-enter__bar {
   display: flex;
-  width: 100%;
+  width: 98%;
   justify-content: space-between;
   align-items: center;
   border: var(--kakao-border);
   border-radius: 25px;
   padding: 5px 10px;
   padding-right: 3px;
+  transition: all 0.3 ease-in-out;
 }
 .message-enter__bar input {
   border: none;
   width: 90%;
+}
+.message-enter__bar i {
+  transition: all 0.3s ease-in-out;
 }
 
 .message-enter__send-btn {
@@ -80,4 +87,28 @@
   border-radius: 50%;
   margin-left: 20px;
   text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.message-enter:focus-within .message-enter__column:first-child {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.message-enter:focus-within .message-enter__column:last-child {
+  transform: translateX(-40px);
+  width: 100vw;
+  padding-right: 0;
+}
+.message-enter:focus-within .message-enter__bar {
+  width: 100%;
+}
+
+.message-enter:focus-within .message-enter__bar i,
+.message-enter:focus-within .message-enter__bar button {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.message-enter:focus-within .message-enter__bar input {
+  width: 100%;
 }
